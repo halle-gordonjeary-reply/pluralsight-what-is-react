@@ -1,3 +1,6 @@
+import React from "https://esm.sh/react@19/?dev";
+import ReactDOM from "https://esm.sh/react-dom@19/client?dev";
+
 window.onload = () => {
   const rootElement = document.getElementById("root");
   const root = ReactDOM.createRoot(rootElement);
