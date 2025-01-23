@@ -1,4 +1,19 @@
 "use client";
 export default function Home() {
-  return <div>Hello from Pluralsight</div>;
+  function ListItems() {
+    const ints = [1, 2, 3];
+    return (
+      <>
+        {ints.map((id) => {
+          return <li>{id}</li>;
+        })}
+      </>
+    );
+  }
+
+  return (
+    <ul>
+      <ListItems />
+    </ul>
+  );
 }
